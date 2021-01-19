@@ -1,0 +1,74 @@
+* {
+  font-size: 18px;
+}
+
+.burger {
+  display: none;
+}
+header {
+  background-image: url("../img/pic-header.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  width: 100%;
+}
+
+section > div > h4 {
+  text-decoration: underline;
+}
+
+#top,
+#experiences {
+  background-color: lightgoldenrodyellow;
+}
+
+li {
+  list-style-position: inside;
+}
+
+#gallery img {
+  height: 300px;
+  padding: 5px;
+}
+
+footer {
+  background-color: rgb(54, 153, 107);
+}
+footer a {
+  color: white;
+}
+footer li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .menu {
+    display: none;
+  }
+
+ .cancel {
+    display: none;
+  }
+
+  .burger {
+    display: inline-flex;
+  }
+
+  header {
+    background-image: url("../img/pic1.jpg");
+    background-size: cover;
+    background-position: inherit;
+    height: 400px;
+    width: 100%;
+  }
+
+  #abilities > div > span {
+    flex-direction: column;
+  }
+
+  #abilities > div > span > ul {
+    padding: 0;
+  }
+}
